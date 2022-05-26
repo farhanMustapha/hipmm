@@ -90,3 +90,31 @@ h1{
     width: 500px;
     height: 5vh;
 }
+
+.btn-impression{
+    align-items: center;
+    text-align: center;
+   
+}
+
+.btn-impression button{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: rgb(20, 121, 209);
+    height: 5vh;
+    color: white;
+    border: none;
+    border-radius: 16px;
+    width: 100px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+
+.btn-impression button a{
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+
+}
