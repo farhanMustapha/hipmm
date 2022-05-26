@@ -5,16 +5,82 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="design.css">
 </head>
 <body>
+<div class="box1">
+    <div class="logo">pmm</div>
+    <div> <h1 class="title1">ordre de paiement</h1></div>
+   <div><input type="date" placeholder="date "></div>
+   <div>
+    <select name="" id="">
+        <option value="virement">budget line</option>
+        <option value="virement">1.1.1.1</option>
+        <option value="virement">1.1.1.2</option>
+        <option value="virement">1.1.1.3</option>
+    </select>
+   </div>
+   <div>
+    <select name="" id="">
+        <option value="virement">année budgetaire</option>
+        <option value="virement">1er année </option>
+        <option value="virement">2eme année</option>
+        <option value="virement">3eme année</option>
+    </select>
+   </div>
+   <div>
+    <select name="" id="">
+        <option value="virement">projet</option>
+        <option value="virement">depomi</option>
+        <option value="virement">hope</option>
+        <option value="virement">safe journey</option>
+    </select>
+   </div>
+</div>
+
+    <div class="box2">
+        <h1 class="title2">inputation budgetaire</h1>
+        <h2 class="desc">description de l'operation</h2>
+        
+        <textarea placeholder="description de l'opération ou de l'activité (activité ,lieu....)"></textarea>
+        
+
+        <h1 class="title3">bénéficiaire</h1>
+        <div class="box2-1">
+          
+            <div class="left-box">
+                <div> <input type="text" placeholder="raison sociale"></div>
+                <div> <input type="text" placeholder="Montant"></div>
+                <div> <input type="text" placeholder="compte courant"></div>
+                <div>  <input type="text" placeholder="ref engagement"></div>
+                <div> <input type="text" placeholder="ref facture"></div>
+            </div>
+
+            <div class="right-box">
+                <div><input type="text" placeholder="adresse"></div>
+                <div><input type="text" placeholder="Montant"></div>
+                <div><input type="text" placeholder="agence bancaire"></div>
+                <div><input type="text" placeholder="ref livraison"></div>
+                <div><input type="text" placeholder="justifes"></div>
+            </div>
+
+        </div>
 
     
+    </div>
+
+    <div class="box3">
+        <h1>mode de paiement</h1>
+       <select name="" id="">
+           <option value="virement">virement</option>
+           <option value="virement">virement</option>
+           <option value="virement">virement</option>
+           <option value="virement">virement</option>
+       </select>
+
+    </div>
+    
  
-    <input type="text" name="newevent" id="newevent"/>
-
-    <div class="box"></div>
-    <button onclick="créationbouton()">add</button>
-
-    <script src="logique.js"></script>
+    
 </body>
 </html>
