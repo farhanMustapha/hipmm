@@ -9,11 +9,14 @@
 </head>
 <body>
 <div class="box1">
-    <div class="logo">pmm</div>
-    <div> <h1 class="title1">ordre de paiement</h1></div>
-   <div><input type="date" placeholder="date "></div>
+   
+    <div>
+         <h1 class="title1">Ordre de Paiement</h1>
+    </div>
+    <div class="numero-op"><input type="text" placeholder="numéro de l'op / année"></div>
+   <div class="op-date"><input type="date" placeholder="date "></div>
    <div>
-    <select name="" id="">
+    <select class="select-budget" name="" id="">
         <option value="virement">budget line</option>
         <option value="virement">1.1.1.1</option>
         <option value="virement">1.1.1.2</option>
@@ -21,7 +24,7 @@
     </select>
    </div>
    <div>
-    <select name="" id="">
+    <select class="select-annee" name="" id="">
         <option value="virement">année budgetaire</option>
         <option value="virement">1er année </option>
         <option value="virement">2eme année</option>
@@ -29,7 +32,7 @@
     </select>
    </div>
    <div>
-    <select name="" id="">
+    <select class="select-projet" name="" id="">
         <option value="virement">projet</option>
         <option value="virement">depomi</option>
         <option value="virement">hope</option>
@@ -40,27 +43,30 @@
 
     <div class="box2">
         <h1 class="title2">inputation budgetaire</h1>
-        <h2 class="desc">description de l'operation</h2>
-        
-        <textarea placeholder="description de l'opération ou de l'activité (activité ,lieu....)"></textarea>
-        
+
+        <div class="box-desc">
+            <h1 class="desc">description de l'operation</h1>
+            <textarea placeholder="description de l'opération ou de l'activité (activité ,lieu....)"></textarea>
+            
+        </div>
+       
 
         <h1 class="title3">bénéficiaire</h1>
         <div class="box2-1">
           
             <div class="left-box">
-                <div> <input type="text" placeholder="raison sociale"></div>
-                <div> <input type="text" placeholder="Montant"></div>
-                <div> <input type="text" placeholder="compte courant"></div>
-                <div>  <input type="text" placeholder="ref engagement"></div>
+                <div> <input type="text" placeholder="raison sociale ou nom"></div>
+                <div> <input type="text" placeholder="Montant en chiffre"></div>
+                <div> <input type="text" placeholder="compte courant (optional)"></div>
+                <div>  <input type="text" placeholder="ref engagement (optional)"></div>
                 <div> <input type="text" placeholder="ref facture"></div>
             </div>
 
             <div class="right-box">
                 <div><input type="text" placeholder="adresse"></div>
-                <div><input type="text" placeholder="Montant"></div>
-                <div><input type="text" placeholder="agence bancaire"></div>
-                <div><input type="text" placeholder="ref livraison"></div>
+                <div><input type="text" placeholder="Montant en lettre"></div>
+                <div><input type="text" placeholder="agence bancaire (optional)"></div>
+                <div><input type="text" placeholder="ref livraison (optional)"></div>
                 <div><input type="text" placeholder="justifes"></div>
             </div>
 
@@ -70,12 +76,15 @@
     </div>
 
     <div class="box3">
-        <h1>mode de paiement</h1>
-       <select name="" id="">
+        <h1 class="title4">mode de paiement</h1>
+       <select class="select-paiement" name="" id="">
            <option value="virement">virement</option>
-           <option value="virement">virement</option>
-           <option value="virement">virement</option>
-           <option value="virement">virement</option>
+           <option value="virement">chèque</option>
+           <option value="virement">espèce</option>
+           <option value="virement">effet</option>
+           <option value="virement">prelevement</option>
+           <option value="virement">carte</option>
+           
        </select>
 
     </div>

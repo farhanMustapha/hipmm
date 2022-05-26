@@ -1,35 +1,92 @@
 .box1{
-    background-color: aqua;
+    background-color: rgb(235, 235, 243);
     display: block;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    margin: 10px;
+    
     
 }
+
+
 
 input{
     margin: 5px;
 }
 
 .box2{
-    background-color: blue;
+    background-color: rgb(235, 235, 243);
+    margin: 10px;
+   
 }
 
-.title2{
+.title1,.title2,.title3,.title4{
     background-color: rgb(20, 121, 209);
 }
 
+
+.desc{
+    background-color: rgb(20, 121, 209);
+    
+}
+
+textarea{
+width: 50%;
+margin: 20px;
+}
+
+
 .box2-1{
-    background-color: red;
+    background-color: rgb(235, 235, 243);
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
 }
 
 .box2-1{
     display: flex;
 }
-.right-box{
-    background-color: rgb(54, 160, 54);
-}
+
 
 .box3{
-    background-color: gray;
+    background-color: rgb(235, 235, 243);
+    
+}
+
+.box-desc{
+    background-color: rgb(235, 235, 243);
+    
+
+}
+
+.select-paiement{
+    margin: 20px;
+    width: 200px;
+}
+.select-budget,.select-annee,.select-projet{
+    width: 200px;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+input{
+    width: 200px;
+}
+
+.op-date,.numero-op{
+    margin-left: 20px;
+
+}
+
+h1{
+    color: white;
+}
+
+.left-box input{
+    width: 500px;
+    height: 5vh;
+}
+
+.right-box input{
+    width: 500px;
+    height: 5vh;
 }
